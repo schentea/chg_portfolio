@@ -1,0 +1,159 @@
+#main_project {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5000px;
+}
+#main_project #project_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+#main_project #project_box #project_title {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+#main_project #project_box #project_solid {
+    margin-bottom: 40px;
+    width: 240px;
+    border: 1px solid rgb(206, 206, 206);
+}
+#main_project #project_box #project_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    justify-items: center;
+}
+#main_project #project_box #project_container .project_info_box {
+    width: 100%;
+    height: 700px; 
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    font-size: 20px;
+}
+#main_project #project_box #project_container .project_info_box .project_subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+}
+#main_project #project_box #project_container .project_info_box .project_subtitle p:nth-child(1) {
+    font-size: 28px;
+    font-weight: bold;
+}
+#main_project #project_box #project_container .project_info_box .project_subtitle p:nth-child(2) {
+    color: #5e5e5e;
+    font-weight: bold;
+}
+#main_project #project_box #project_container .project_info_box .project_info {
+    margin-top: 40px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+#main_project #project_box #project_container .project_info_box .project_info .project_pic_box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#main_project #project_box #project_container .project_info_box .project_info .project_pic {
+    width: 90%;
+    height : 70%;
+   
+}
+#main_project #project_box #project_container .project_info_box .project_info .project_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#main_project #project_box #project_container .project_info_box .project_info .project_con_box {
+    width: 50%;
+    height: 100%;
+}
+.project_git {
+    display: flex;
+    gap :20px
+}
+.two_project {
+    display: flex;
+    gap:20px
+}
+.project_git div:nth-child(1) {
+    font-weight: bold;
+}
+.two_project div:nth-child(1) {
+    font-weight: bold;
+}
+.project_git div:nth-child(2):hover {
+    color: #61BAEC;
+    font-weight: bold;
+}
+.project_url {
+    display: flex;
+    gap :20px
+}
+.project_url div:nth-child(1) {
+    font-weight: bold;
+}
+.project_url div:nth-child(2):hover {
+    color: #61BAEC;
+    font-weight: bold;
+}
+.project_using_skill {
+    display: flex;
+    gap: 10px;
+}
+.project_using_skill div:nth-child(1) {
+    font-weight: bold;
+}
+.project_detail {
+    width: 100%;
+    display: flex;
+}
+.project_detail_title {
+    width: 15%;
+    font-weight: bold;
+}
+.project_detail_info {
+    width: 80%;
+    height: auto;
+}
+.project_con_box div {
+    margin-bottom: 10px;
+}
+.git_page:hover {
+    color: #61BAEC;
+    font-weight: bold;
+}
+.git_server:hover {
+    color: #61BAEC;
+    font-weight: bold;
+}
+.project_award {
+    display: flex;
+    gap :20px
+}
+.project_award div:nth-child(1) {
+    font-weight: bold;
+}

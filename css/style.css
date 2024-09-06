@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style-type: none;
+}
+.html_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 5px 1px 5px;
+    background-color: #E44D26;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.css_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #264DE4;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.js_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #E7B14E;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.react_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #08D9FE;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.tail_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #46AAB3;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.php_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #4E5B92;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.mysql_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #4C4C4C;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.mongo_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #1E3F2C;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.node_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #4BB857;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.aws_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #F7971E;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.linux_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #F47721;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.python_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #376F9E;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.pi_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #D12851;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.jquery_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #056AA6;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.exp_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #7F7F7F;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.cloud_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #010101;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.figma_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #9E59F8;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.java_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #E81C1A;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.xd_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #FD5EF7;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.ph_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #03A8FA;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+/* header */
+
+/* About */
+
+/* Skill */
+
+/* Project */
+
+

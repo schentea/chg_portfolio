@@ -1,0 +1,151 @@
+#main_header {
+    position: relative; 
+    width: 100%;
+    height: 700px;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+#background-blur {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../asset/banner_img.jpg"); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: -1;
+}
+
+#main_nav {
+    z-index: 3;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#main_nav.scrolled {
+    background: rgb(228, 228, 228); 
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); 
+}
+
+#main_introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+}
+
+#main_header #main_introduction #solid_box {
+    width: 5%;
+    border :3px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#main_nav #main_title {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#main_nav #main_category {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+  
+}
+#main_nav #main_category li {
+    display: flex;
+    margin-right: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#main_nav #main_category #about_chapter.at-top:hover {
+    cursor: pointer;
+    color: gray; /* 최상단일 때 텍스트 색상 */
+}
+#main_nav #main_category #skill_chapter.at-top:hover {
+    cursor: pointer;
+    color: gray; /* 최상단일 때 텍스트 색상 */
+}
+#main_nav #main_category #project_chapter.at-top:hover {
+    cursor: pointer;
+    color: gray; /* 최상단일 때 텍스트 색상 */
+}
+#main_nav #main_category #about_chapter.not-at-top:hover {
+    cursor: pointer;
+    color: black
+}
+#main_nav #main_category #skill_chapter.not-at-top:hover {
+    cursor: pointer;
+    color: black
+}
+#main_nav #main_category #project_chapter.not-at-top:hover {
+    cursor: pointer;
+    color: black
+}
+#main_introduction p:nth-child(1),
+#main_introduction p:nth-child(2) {
+    font-size: 48px;
+    font-weight: 700;
+}
+#main_introduction p:nth-child(4),
+#main_introduction p:nth-child(5) {
+    font-size: 24px;
+}
+#main_introduction #more_box {
+    margin-top: 30px;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(218, 217, 217);
+    color: #5e5e5e;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#main_introduction #more_box i {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+#main_introduction #more_box:hover {
+    cursor: pointer;
+    background-color: #5e5e5e;
+    color :rgb(218, 217, 217);
+}
+#main_header #main_nav #main_title.at-top:hover {
+    /* 최상단일 때 스타일 */
+    cursor: pointer;
+    color: gray; /* 최상단일 때 텍스트 색상 */
+}
+
+/* 스크롤이 최상단이 아닐 때 스타일 */
+#main_header #main_nav #main_title.not-at-top:hover {
+    /* 최상단이 아닐 때 스타일 */
+    cursor: pointer;
+    color: black; /* 최상단이 아닐 때 텍스트 색상 */
+}

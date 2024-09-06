@@ -1,0 +1,85 @@
+#main_about {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+}
+#main_about #about_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+#main_about #about_box #about_title {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+#main_about #about_box #about_solid {
+    margin-bottom: 40px;
+    width: 250px;
+    border: 1px solid rgb(206, 206, 206);
+}
+#main_about #about_box #about_info_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+#main_about #about_box #about_info_container .about_info_box {
+    height: 140px; 
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#main_about #about_box #about_info_container .about_info_box .info_icon {
+    margin-left: 20px;
+    width: 20%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_about #about_box #about_info_container .about_info_box .info_textbox {
+    margin-left: 20px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main_about #about_box #about_info_container .about_info_box .info_textbox .info_title {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+}
+#main_about #about_box #about_info_container .about_info_box .info_textbox .info_text {
+    font-size: 18px;
+}
+#main_about #about_box #about_info_container .about_info_box .info_textbox .info_text span{
+    font-size: 14px;
+}
+#main_about #about_box #about_notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 1000px;
+    height: 60px;
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
