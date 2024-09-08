@@ -209,6 +209,16 @@ li {
     font-weight: bold;
     color: white;
 }
+.pre_color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 1px 7px;
+    background-color: #DE85ED;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
 /* header */
 
 /* About */
