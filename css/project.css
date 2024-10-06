@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 5000px;
+    height: 5500px;
 }
 #main_project #project_box {
     display: flex;
@@ -156,4 +156,9 @@
 }
 .project_award div:nth-child(1) {
     font-weight: bold;
+}
+.git_pagev2:hover {
+    color: #61BAEC;
+    font-weight: bold;
+    font-size : 18px;
 }
